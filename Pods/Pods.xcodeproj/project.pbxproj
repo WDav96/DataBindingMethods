@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A4070D158061DFD8BB8778D8B0AE518 /* SwiftEventBus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F752203223D70480D0CDAC269D5186E0 /* SwiftEventBus-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		490F973FD10C825AD69755EC768B8238 /* Pods-DataBindingMethods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2988D038FEB83F20A1F3D3A95541CB5 /* Pods-DataBindingMethods-dummy.m */; };
+		52761097E0A837F7914B18FAC23A6E43 /* Pods-DataBindingMethods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 316564F36B9635196C0EF196EED7D860 /* Pods-DataBindingMethods-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E05129A82D3169F205F7F32430ACA6E /* SwiftEventBus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06D3BF70D6E58B1ACBBF69FC4D3FE8 /* SwiftEventBus-dummy.m */; };
+		7CE42BB5C5CD05674644BF1780634FCA /* SwiftEventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85073A5B221732F6FBD7136F6729B4C /* SwiftEventBus.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E44ADA765CC7C3A1D1DAC457AE81C87A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA14357F3B92589AC87E00C49118FF1;
+			remoteInfo = SwiftEventBus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		223CCB9F5D6960ECA3FB01AC93F5B2BA /* libPods-DataBindingMethods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DataBindingMethods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		316564F36B9635196C0EF196EED7D860 /* Pods-DataBindingMethods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataBindingMethods-umbrella.h"; sourceTree = "<group>"; };
+		3A09503D5C182B8D4EA987B1B18A21B3 /* SwiftEventBus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftEventBus.modulemap; sourceTree = "<group>"; };
+		57D8164FA0A1AC7BE73D8B052EDF31DE /* Pods-DataBindingMethods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DataBindingMethods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D44E72026BA8659FB81E1C05E8614C6 /* Pods-DataBindingMethods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DataBindingMethods.modulemap"; sourceTree = "<group>"; };
+		855EB41CB01EE1DDB4856B91D67EB121 /* libSwiftEventBus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftEventBus.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2988D038FEB83F20A1F3D3A95541CB5 /* Pods-DataBindingMethods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DataBindingMethods-dummy.m"; sourceTree = "<group>"; };
+		A85073A5B221732F6FBD7136F6729B4C /* SwiftEventBus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftEventBus.swift; path = SwiftEventBus/SwiftEventBus.swift; sourceTree = "<group>"; };
+		AD1D5A340CEFA56D3BD4C77E56A6969B /* SwiftEventBus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftEventBus.xcconfig; sourceTree = "<group>"; };
+		BEFF153DE05E57A30A8EE7809CFADA50 /* Pods-DataBindingMethods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataBindingMethods.debug.xcconfig"; sourceTree = "<group>"; };
+		C6CD1711A1A3689699035783471366FC /* Pods-DataBindingMethods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataBindingMethods.release.xcconfig"; sourceTree = "<group>"; };
+		C980D8C088610FAEBEE002A9FD45B915 /* Pods-DataBindingMethods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DataBindingMethods-acknowledgements.plist"; sourceTree = "<group>"; };
+		D29B6952F05E04C31B1EB690C322BF84 /* SwiftEventBus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftEventBus-prefix.pch"; sourceTree = "<group>"; };
+		F752203223D70480D0CDAC269D5186E0 /* SwiftEventBus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftEventBus-umbrella.h"; sourceTree = "<group>"; };
+		FE06D3BF70D6E58B1ACBBF69FC4D3FE8 /* SwiftEventBus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftEventBus-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D20A4D50852B7BF477327FA4333397D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CEBB38C6481192C74081C2E0F1DD3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433BB55DCEA83F7DF06AC552D4F0A2C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDB33236C31FF8CB9AE83A55BA6CD192 /* SwiftEventBus */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62CBC24637F1C9D7FC7C860FBF6207BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A09503D5C182B8D4EA987B1B18A21B3 /* SwiftEventBus.modulemap */,
+				AD1D5A340CEFA56D3BD4C77E56A6969B /* SwiftEventBus.xcconfig */,
+				FE06D3BF70D6E58B1ACBBF69FC4D3FE8 /* SwiftEventBus-dummy.m */,
+				D29B6952F05E04C31B1EB690C322BF84 /* SwiftEventBus-prefix.pch */,
+				F752203223D70480D0CDAC269D5186E0 /* SwiftEventBus-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftEventBus";
+			sourceTree = "<group>";
+		};
+		6A44D81CFE079ADEB2C9E5496B7F5456 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEC2CB4A8E3B24ABE7A34E9A25FCAABA /* Pods-DataBindingMethods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		848E256E1BE682756541A129D2A0F682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				223CCB9F5D6960ECA3FB01AC93F5B2BA /* libPods-DataBindingMethods.a */,
+				855EB41CB01EE1DDB4856B91D67EB121 /* libSwiftEventBus.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEC2CB4A8E3B24ABE7A34E9A25FCAABA /* Pods-DataBindingMethods */ = {
+			isa = PBXGroup;
+			children = (
+				6D44E72026BA8659FB81E1C05E8614C6 /* Pods-DataBindingMethods.modulemap */,
+				57D8164FA0A1AC7BE73D8B052EDF31DE /* Pods-DataBindingMethods-acknowledgements.markdown */,
+				C980D8C088610FAEBEE002A9FD45B915 /* Pods-DataBindingMethods-acknowledgements.plist */,
+				A2988D038FEB83F20A1F3D3A95541CB5 /* Pods-DataBindingMethods-dummy.m */,
+				316564F36B9635196C0EF196EED7D860 /* Pods-DataBindingMethods-umbrella.h */,
+				BEFF153DE05E57A30A8EE7809CFADA50 /* Pods-DataBindingMethods.debug.xcconfig */,
+				C6CD1711A1A3689699035783471366FC /* Pods-DataBindingMethods.release.xcconfig */,
+			);
+			name = "Pods-DataBindingMethods";
+			path = "Target Support Files/Pods-DataBindingMethods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				433BB55DCEA83F7DF06AC552D4F0A2C9 /* Pods */,
+				848E256E1BE682756541A129D2A0F682 /* Products */,
+				6A44D81CFE079ADEB2C9E5496B7F5456 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDB33236C31FF8CB9AE83A55BA6CD192 /* SwiftEventBus */ = {
+			isa = PBXGroup;
+			children = (
+				A85073A5B221732F6FBD7136F6729B4C /* SwiftEventBus.swift */,
+				62CBC24637F1C9D7FC7C860FBF6207BD /* Support Files */,
+			);
+			path = SwiftEventBus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E53A262485DF3528F2EB6153B046087 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52761097E0A837F7914B18FAC23A6E43 /* Pods-DataBindingMethods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8814CA550269D8DDEB88F5B011CD8470 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4070D158061DFD8BB8778D8B0AE518 /* SwiftEventBus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C82023E3A0B3C6FAF70FB703E8E8482 /* Pods-DataBindingMethods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A93A43E85F20E828A7339967CB84F39 /* Build configuration list for PBXNativeTarget "Pods-DataBindingMethods" */;
+			buildPhases = (
+				7E53A262485DF3528F2EB6153B046087 /* Headers */,
+				AFFC329259C758B8731B67057BDD11C3 /* Sources */,
+				9D20A4D50852B7BF477327FA4333397D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41E423F1AC45D83A5FBC10DCF4ED399D /* PBXTargetDependency */,
+			);
+			name = "Pods-DataBindingMethods";
+			productName = "Pods-DataBindingMethods";
+			productReference = 223CCB9F5D6960ECA3FB01AC93F5B2BA /* libPods-DataBindingMethods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BAA14357F3B92589AC87E00C49118FF1 /* SwiftEventBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC271DE52950CBFDC766CD0134618A2 /* Build configuration list for PBXNativeTarget "SwiftEventBus" */;
+			buildPhases = (
+				8814CA550269D8DDEB88F5B011CD8470 /* Headers */,
+				5EF81AC48E6C900BBB64BB836DAD2477 /* Sources */,
+				D2CEBB38C6481192C74081C2E0F1DD3B /* Frameworks */,
+				F9E51A557D09A33C3848A38F43D1EDD8 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftEventBus;
+			productName = SwiftEventBus;
+			productReference = 855EB41CB01EE1DDB4856B91D67EB121 /* libSwiftEventBus.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 848E256E1BE682756541A129D2A0F682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C82023E3A0B3C6FAF70FB703E8E8482 /* Pods-DataBindingMethods */,
+				BAA14357F3B92589AC87E00C49118FF1 /* SwiftEventBus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9E51A557D09A33C3848A38F43D1EDD8 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwiftEventBus/SwiftEventBus.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwiftEventBus/SwiftEventBus-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwiftEventBus-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftEventBus/SwiftEventBus.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftEventBus/SwiftEventBus-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EF81AC48E6C900BBB64BB836DAD2477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE42BB5C5CD05674644BF1780634FCA /* SwiftEventBus.swift in Sources */,
+				5E05129A82D3169F205F7F32430ACA6E /* SwiftEventBus-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFC329259C758B8731B67057BDD11C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490F973FD10C825AD69755EC768B8238 /* Pods-DataBindingMethods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41E423F1AC45D83A5FBC10DCF4ED399D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftEventBus;
+			target = BAA14357F3B92589AC87E00C49118FF1 /* SwiftEventBus */;
+			targetProxy = E44ADA765CC7C3A1D1DAC457AE81C87A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EB78948398F70E6E0EEC1B92476859B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2425D6CC71B784CE0DDF43166D47DF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD1D5A340CEFA56D3BD4C77E56A6969B /* SwiftEventBus.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftEventBus/SwiftEventBus-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/SwiftEventBus/SwiftEventBus.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftEventBus;
+				PRODUCT_NAME = SwiftEventBus;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62A07AB6BD44E0A5983E4F654189CD37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD1D5A340CEFA56D3BD4C77E56A6969B /* SwiftEventBus.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftEventBus/SwiftEventBus-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/SwiftEventBus/SwiftEventBus.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftEventBus;
+				PRODUCT_NAME = SwiftEventBus;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AAE3208F728B5628DB0C2D3122A60ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6CD1711A1A3689699035783471366FC /* Pods-DataBindingMethods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DataBindingMethods/Pods-DataBindingMethods.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7290392BDDDC8699D9F13E731E8A9A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		798C80CF86C0B36959FE54B2CAD0C38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFF153DE05E57A30A8EE7809CFADA50 /* Pods-DataBindingMethods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DataBindingMethods/Pods-DataBindingMethods.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7290392BDDDC8699D9F13E731E8A9A4E /* Debug */,
+				0EB78948398F70E6E0EEC1B92476859B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A93A43E85F20E828A7339967CB84F39 /* Build configuration list for PBXNativeTarget "Pods-DataBindingMethods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798C80CF86C0B36959FE54B2CAD0C38B /* Debug */,
+				6AAE3208F728B5628DB0C2D3122A60ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC271DE52950CBFDC766CD0134618A2 /* Build configuration list for PBXNativeTarget "SwiftEventBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2425D6CC71B784CE0DDF43166D47DF57 /* Debug */,
+				62A07AB6BD44E0A5983E4F654189CD37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

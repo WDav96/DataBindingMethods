@@ -1,0 +1,22 @@
+PODS:
+  - SwiftEventBus (5.0.0)
+
+DEPENDENCIES:
+  - SwiftEventBus (from `https://github.com/cesarferreira/SwiftEventBus.git`, tag `5.0.0`)
+
+EXTERNAL SOURCES:
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+    :tag: 5.0.0
+
+CHECKOUT OPTIONS:
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+    :tag: 5.0.0
+
+SPEC CHECKSUMS:
+  SwiftEventBus: b30f617a6aca5a9336464b4d3f5931034762f2d5
+
+PODFILE CHECKSUM: 5c7e04891f2b32e0c73d1fd3d2b6f122ea20fa21
+
+COCOAPODS: 1.8.4

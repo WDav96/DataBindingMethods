@@ -19,6 +19,8 @@
 		D25BE5652899D4080008DF3D /* ObservableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BE5642899D4080008DF3D /* ObservableViewModel.swift */; };
 		D25BE5672899D5F50008DF3D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BE5662899D5F50008DF3D /* APIManager.swift */; };
 		D25BE569289A0CF50008DF3D /* ObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BE568289A0CF50008DF3D /* ObservableViewController.swift */; };
+		D25BE56C289A22DB0008DF3D /* UsersEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BE56B289A22DB0008DF3D /* UsersEvent.swift */; };
+		D25BE56E289A24680008DF3D /* EventBusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BE56D289A24680008DF3D /* EventBusViewModel.swift */; };
 		D2F26F7F2891A2C200F2DF34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F26F7E2891A2C200F2DF34 /* AppDelegate.swift */; };
 		D2F26F812891A2C200F2DF34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F26F802891A2C200F2DF34 /* SceneDelegate.swift */; };
 		D2F26F832891A2C200F2DF34 /* DelegatePatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F26F822891A2C200F2DF34 /* DelegatePatternViewController.swift */; };
@@ -26,9 +28,13 @@
 		D2F26F8B2891A2C400F2DF34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F26F892891A2C400F2DF34 /* LaunchScreen.storyboard */; };
 		D2F26F962891A73900F2DF34 /* DelegatePatternViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F26F952891A73900F2DF34 /* DelegatePatternViewModel.swift */; };
 		D2F26F982893995700F2DF34 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F26F972893995700F2DF34 /* User.swift */; };
+		D2FD7AAD289A337C00C07D51 /* EventBusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD7AAC289A337C00C07D51 /* EventBusViewController.swift */; };
+		D3AE7DAC8F3AD0212ACD5A72 /* libPods-DataBindingMethods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 085A2254A63FD45A98E9CF91 /* libPods-DataBindingMethods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		085A2254A63FD45A98E9CF91 /* libPods-DataBindingMethods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DataBindingMethods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3157BAB662AAF381917E56EF /* Pods-DataBindingMethods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBindingMethods.debug.xcconfig"; path = "Target Support Files/Pods-DataBindingMethods/Pods-DataBindingMethods.debug.xcconfig"; sourceTree = "<group>"; };
 		D25BE54E2899B65C0008DF3D /* ObservableCombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableCombineViewController.swift; sourceTree = "<group>"; };
 		D25BE5502899B6860008DF3D /* ObservableCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableCombineViewModel.swift; sourceTree = "<group>"; };
 		D25BE5532899BB850008DF3D /* CompletionHandlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionHandlerViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +47,8 @@
 		D25BE5642899D4080008DF3D /* ObservableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableViewModel.swift; sourceTree = "<group>"; };
 		D25BE5662899D5F50008DF3D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		D25BE568289A0CF50008DF3D /* ObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableViewController.swift; sourceTree = "<group>"; };
+		D25BE56B289A22DB0008DF3D /* UsersEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersEvent.swift; sourceTree = "<group>"; };
+		D25BE56D289A24680008DF3D /* EventBusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventBusViewModel.swift; sourceTree = "<group>"; };
 		D2F26F7B2891A2C200F2DF34 /* DataBindingMethods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataBindingMethods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F26F7E2891A2C200F2DF34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2F26F802891A2C200F2DF34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +58,8 @@
 		D2F26F8C2891A2C400F2DF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F26F952891A73900F2DF34 /* DelegatePatternViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePatternViewModel.swift; sourceTree = "<group>"; };
 		D2F26F972893995700F2DF34 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D2FD7AAC289A337C00C07D51 /* EventBusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventBusViewController.swift; sourceTree = "<group>"; };
+		F700CD2033F16F09236124EA /* Pods-DataBindingMethods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBindingMethods.release.xcconfig"; path = "Target Support Files/Pods-DataBindingMethods/Pods-DataBindingMethods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +67,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3AE7DAC8F3AD0212ACD5A72 /* libPods-DataBindingMethods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		983EB11E918226CAD7A18428 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3157BAB662AAF381917E56EF /* Pods-DataBindingMethods.debug.xcconfig */,
+				F700CD2033F16F09236124EA /* Pods-DataBindingMethods.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B67825DE2346C4DC989AB4AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				085A2254A63FD45A98E9CF91 /* libPods-DataBindingMethods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D25BE54B2899B4E60008DF3D /* DelegatePattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,10 +149,19 @@
 			children = (
 				D25BE5622899D27A0008DF3D /* Observable.swift */,
 				D25BE5642899D4080008DF3D /* ObservableViewModel.swift */,
-				D25BE5662899D5F50008DF3D /* APIManager.swift */,
 				D25BE568289A0CF50008DF3D /* ObservableViewController.swift */,
 			);
 			path = Observable;
+			sourceTree = "<group>";
+		};
+		D25BE56A289A227F0008DF3D /* EventBuses */ = {
+			isa = PBXGroup;
+			children = (
+				D25BE56B289A22DB0008DF3D /* UsersEvent.swift */,
+				D25BE56D289A24680008DF3D /* EventBusViewModel.swift */,
+				D2FD7AAC289A337C00C07D51 /* EventBusViewController.swift */,
+			);
+			path = EventBuses;
 			sourceTree = "<group>";
 		};
 		D2F26F722891A2C200F2DF34 = {
@@ -132,6 +169,8 @@
 			children = (
 				D2F26F7D2891A2C200F2DF34 /* DataBindingMethods */,
 				D2F26F7C2891A2C200F2DF34 /* Products */,
+				983EB11E918226CAD7A18428 /* Pods */,
+				B67825DE2346C4DC989AB4AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,9 +195,11 @@
 		D2F26F922891A2ED00F2DF34 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				D2FD7AAB289A32D600C07D51 /* APIManager */,
 				D25BE55C2899C5A10008DF3D /* AsyncAwait */,
 				D25BE5522899BB610008DF3D /* CompletionHandler */,
 				D25BE54B2899B4E60008DF3D /* DelegatePattern */,
+				D25BE56A289A227F0008DF3D /* EventBuses */,
 				D25BE5572899BFEF0008DF3D /* FunctionReturn */,
 				D25BE54D2899B5760008DF3D /* Model */,
 				D25BE5612899D2560008DF3D /* Observable */,
@@ -186,6 +227,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		D2FD7AAB289A32D600C07D51 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				D25BE5662899D5F50008DF3D /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2F26F8F2891A2C400F2DF34 /* Build configuration list for PBXNativeTarget "DataBindingMethods" */;
 			buildPhases = (
+				B7B02DECEFA7F47CE3033B06 /* [CP] Check Pods Manifest.lock */,
 				D2F26F772891A2C200F2DF34 /* Sources */,
 				D2F26F782891A2C200F2DF34 /* Frameworks */,
 				D2F26F792891A2C200F2DF34 /* Resources */,
@@ -251,11 +301,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B7B02DECEFA7F47CE3033B06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataBindingMethods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2F26F772891A2C200F2DF34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FD7AAD289A337C00C07D51 /* EventBusViewController.swift in Sources */,
 				D25BE5672899D5F50008DF3D /* APIManager.swift in Sources */,
 				D2F26F832891A2C200F2DF34 /* DelegatePatternViewController.swift in Sources */,
 				D2F26F7F2891A2C200F2DF34 /* AppDelegate.swift in Sources */,
@@ -263,11 +339,13 @@
 				D2F26F982893995700F2DF34 /* User.swift in Sources */,
 				D25BE55E2899C5BE0008DF3D /* AsyncAwaitViewController.swift in Sources */,
 				D25BE5652899D4080008DF3D /* ObservableViewModel.swift in Sources */,
+				D25BE56C289A22DB0008DF3D /* UsersEvent.swift in Sources */,
 				D25BE5512899B6860008DF3D /* ObservableCombineViewModel.swift in Sources */,
 				D25BE55B2899C03F0008DF3D /* FunctionReturnViewModel.swift in Sources */,
 				D25BE5562899BBA20008DF3D /* CompletionHandlerViewModel.swift in Sources */,
 				D2F26F962891A73900F2DF34 /* DelegatePatternViewModel.swift in Sources */,
 				D25BE569289A0CF50008DF3D /* ObservableViewController.swift in Sources */,
+				D25BE56E289A24680008DF3D /* EventBusViewModel.swift in Sources */,
 				D25BE54F2899B65C0008DF3D /* ObservableCombineViewController.swift in Sources */,
 				D25BE5632899D27A0008DF3D /* Observable.swift in Sources */,
 				D25BE5592899C0240008DF3D /* FunctionReturnViewController.swift in Sources */,
@@ -408,6 +486,7 @@
 		};
 		D2F26F902891A2C400F2DF34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3157BAB662AAF381917E56EF /* Pods-DataBindingMethods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,6 +514,7 @@
 		};
 		D2F26F912891A2C400F2DF34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F700CD2033F16F09236124EA /* Pods-DataBindingMethods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

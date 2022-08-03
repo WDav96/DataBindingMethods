@@ -1,0 +1,6 @@
+module Pods_DataBindingMethods {
+  umbrella header "Pods-DataBindingMethods-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -32,12 +32,12 @@ class ObservableCombineViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel.viewLoaded()
-        viewModel.users.sink { users in
+        viewModel.users.sink { [weak self] users in
             // Do something with the users
             print(users)
         }.store(in: &cancellables)
         
-        viewModel.$usersPublished.sink { users in
+        viewModel.$usersPublished.sink { [weak self] users in
             print(users)
         }.store(in: &cancellables)
     }
