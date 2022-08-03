@@ -36,6 +36,10 @@ class ObservableCombineViewController: UIViewController {
             // Do something with the users
             print(users)
         }.store(in: &cancellables)
+        
+        viewModel.$usersPublished.sink { users in
+            print(users)
+        }.store(in: &cancellables)
     }
 
 }

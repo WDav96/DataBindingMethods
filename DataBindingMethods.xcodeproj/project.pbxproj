@@ -15,6 +15,10 @@
 		D25BE55B2899C03F0008DF3D /* FunctionReturnViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BE55A2899C03F0008DF3D /* FunctionReturnViewModel.swift */; };
 		D25BE55E2899C5BE0008DF3D /* AsyncAwaitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BE55D2899C5BE0008DF3D /* AsyncAwaitViewController.swift */; };
 		D25BE5602899C5F20008DF3D /* AsyncAwaitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BE55F2899C5F20008DF3D /* AsyncAwaitViewModel.swift */; };
+		D25BE5632899D27A0008DF3D /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BE5622899D27A0008DF3D /* Observable.swift */; };
+		D25BE5652899D4080008DF3D /* ObservableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BE5642899D4080008DF3D /* ObservableViewModel.swift */; };
+		D25BE5672899D5F50008DF3D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BE5662899D5F50008DF3D /* APIManager.swift */; };
+		D25BE569289A0CF50008DF3D /* ObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BE568289A0CF50008DF3D /* ObservableViewController.swift */; };
 		D2F26F7F2891A2C200F2DF34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F26F7E2891A2C200F2DF34 /* AppDelegate.swift */; };
 		D2F26F812891A2C200F2DF34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F26F802891A2C200F2DF34 /* SceneDelegate.swift */; };
 		D2F26F832891A2C200F2DF34 /* DelegatePatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F26F822891A2C200F2DF34 /* DelegatePatternViewController.swift */; };
@@ -33,6 +37,10 @@
 		D25BE55A2899C03F0008DF3D /* FunctionReturnViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionReturnViewModel.swift; sourceTree = "<group>"; };
 		D25BE55D2899C5BE0008DF3D /* AsyncAwaitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitViewController.swift; sourceTree = "<group>"; };
 		D25BE55F2899C5F20008DF3D /* AsyncAwaitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitViewModel.swift; sourceTree = "<group>"; };
+		D25BE5622899D27A0008DF3D /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		D25BE5642899D4080008DF3D /* ObservableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableViewModel.swift; sourceTree = "<group>"; };
+		D25BE5662899D5F50008DF3D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		D25BE568289A0CF50008DF3D /* ObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableViewController.swift; sourceTree = "<group>"; };
 		D2F26F7B2891A2C200F2DF34 /* DataBindingMethods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataBindingMethods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F26F7E2891A2C200F2DF34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2F26F802891A2C200F2DF34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +116,17 @@
 			path = AsyncAwait;
 			sourceTree = "<group>";
 		};
+		D25BE5612899D2560008DF3D /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				D25BE5622899D27A0008DF3D /* Observable.swift */,
+				D25BE5642899D4080008DF3D /* ObservableViewModel.swift */,
+				D25BE5662899D5F50008DF3D /* APIManager.swift */,
+				D25BE568289A0CF50008DF3D /* ObservableViewController.swift */,
+			);
+			path = Observable;
+			sourceTree = "<group>";
+		};
 		D2F26F722891A2C200F2DF34 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +161,7 @@
 				D25BE54B2899B4E60008DF3D /* DelegatePattern */,
 				D25BE5572899BFEF0008DF3D /* FunctionReturn */,
 				D25BE54D2899B5760008DF3D /* Model */,
+				D25BE5612899D2560008DF3D /* Observable */,
 				D25BE54C2899B5090008DF3D /* ObservableCombine */,
 			);
 			path = Modules;
@@ -236,16 +256,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25BE5672899D5F50008DF3D /* APIManager.swift in Sources */,
 				D2F26F832891A2C200F2DF34 /* DelegatePatternViewController.swift in Sources */,
 				D2F26F7F2891A2C200F2DF34 /* AppDelegate.swift in Sources */,
 				D2F26F812891A2C200F2DF34 /* SceneDelegate.swift in Sources */,
 				D2F26F982893995700F2DF34 /* User.swift in Sources */,
 				D25BE55E2899C5BE0008DF3D /* AsyncAwaitViewController.swift in Sources */,
+				D25BE5652899D4080008DF3D /* ObservableViewModel.swift in Sources */,
 				D25BE5512899B6860008DF3D /* ObservableCombineViewModel.swift in Sources */,
 				D25BE55B2899C03F0008DF3D /* FunctionReturnViewModel.swift in Sources */,
 				D25BE5562899BBA20008DF3D /* CompletionHandlerViewModel.swift in Sources */,
 				D2F26F962891A73900F2DF34 /* DelegatePatternViewModel.swift in Sources */,
+				D25BE569289A0CF50008DF3D /* ObservableViewController.swift in Sources */,
 				D25BE54F2899B65C0008DF3D /* ObservableCombineViewController.swift in Sources */,
+				D25BE5632899D27A0008DF3D /* Observable.swift in Sources */,
 				D25BE5592899C0240008DF3D /* FunctionReturnViewController.swift in Sources */,
 				D25BE5602899C5F20008DF3D /* AsyncAwaitViewModel.swift in Sources */,
 				D25BE5542899BB850008DF3D /* CompletionHandlerViewController.swift in Sources */,

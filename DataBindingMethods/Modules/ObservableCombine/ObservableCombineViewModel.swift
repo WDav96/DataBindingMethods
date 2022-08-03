@@ -13,6 +13,7 @@ class ObservableCombineViewModel {
     // MARK: - Internal Properties
     
     var users = CurrentValueSubject<[User], Never>([])
+    @Published var usersPublished: [User] = []
     
     // MARK: - Internal Methods
     
@@ -24,6 +25,7 @@ class ObservableCombineViewModel {
         switch result {
         case let .success(users):
             self.users.send(users)
+            self.usersPublished = users
         case let .failure(error):
             print(error.localizedDescription)
         }

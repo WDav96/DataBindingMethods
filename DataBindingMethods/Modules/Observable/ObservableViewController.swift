@@ -1,21 +1,22 @@
 //
-//  AsyncAwaitViewController.swift
+//  ObservableViewController.swift
 //  DataBindingMethods
 //
 //  Created by David Molina on 2/08/22.
 //
 
+import Foundation
 import UIKit
 
-class AsyncAwaitViewController: UIViewController {
+class ObservableViewController: UIViewController {
     
     // MARK: - Internal Properties
     
-    let viewModel: AsyncAwaitViewModel
+    let viewModel: ObservableViewModel
     
     // MARK: - Initializers
     
-    init(viewModel: AsyncAwaitViewModel) {
+    init(viewModel: ObservableViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
@@ -23,22 +24,14 @@ class AsyncAwaitViewController: UIViewController {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
+    
     // MARK: - Lifecycle ViewController Methods
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        Task {
-            await loadUsers()
+        viewModel.users.bind { _ in
+            // Do something with the users
+            // self.showTableView
         }
-
     }
-    
-    // MARK: - Internal Methods
-    
-    func loadUsers() async {
-        guard let users = await viewModel.fetchUsers() else { return }
-        print(users)
-    }
-
 }
